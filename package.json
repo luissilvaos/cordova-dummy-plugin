@@ -1,0 +1,16 @@
+{
+  "name": "lrs.dummy.plugin",
+  "version": "0.0.1",
+  "description": "Dummy",
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "cordova": {
+    "id": "lrs.dummy.plugin",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "engines": []
+}
