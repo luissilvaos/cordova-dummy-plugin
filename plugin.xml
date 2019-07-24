@@ -8,6 +8,9 @@
   <js-module name="DummyPlugin" src="www/DummyPlugin.js">
     <clobbers target="cordova.plugins.DummyPlugin"/>
   </js-module>
+
+  <hook type="after_plugin_install" src="hooks/after_plugin_install.js" />
+
   <platform name="ios">
     <config-file parent="/*" target="config.xml">
       <feature name="DummyPlugin">
@@ -17,7 +20,7 @@
     <source-file src="src/ios/DummyPlugin.m"/>
     <header-file src="src/ios/DummyPlugin.h"/>
 
-    <framework src="AFNetworking" type="podspec" spec="3.2.1.OS" />
+    <framework src="AFNetworking" type="podspec" spec="3.2.1" />
 
   </platform>
 </plugin>
