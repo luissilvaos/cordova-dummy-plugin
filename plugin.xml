@@ -17,7 +17,7 @@
     <source-file src="src/ios/DummyPlugin.m"/>
     <header-file src="src/ios/DummyPlugin.h"/>
 
-    <framework src="PureeOS" type="podspec" spec="2.0.1.OS51" />
+    <framework src="AFNetworking" type="podspec" spec="3.2.1.OS" />
 
   </platform>
 </plugin>
